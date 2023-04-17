@@ -6,6 +6,8 @@ terraform {
   }
 }
 
+# Configure the AWS Provider
 provider "aws" {
-  region  = "us-west-2"
+  region = "ap-southeast-2"
+  profile   = "Steves_Sandpit_1"
 }
